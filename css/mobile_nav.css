@@ -1,0 +1,80 @@
+:root {
+    --light_green: #39FF14;
+    --transition-duration: 0.5s; /* Slightly longer for better visibility */
+}
+body {
+    margin: 0;
+   
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background: var(--ternary);
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    padding: 2rem;
+    padding-top: 5rem;
+    transform: translateX(-100%); /* Initially hide the menu off-screen */
+    transition: transform var(--transition-duration) ease-in-out, opacity var(--transition-duration) ease-in-out;
+    opacity: 0; /* Initially hide the menu */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.open {
+    transform: translateX(0); /* Slide in */
+    opacity: 1; /* Fade in */
+}
+
+.mobile-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.mobile-nav ul li {
+    margin: 1rem 0;
+}
+
+.mobile-nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color var(--transition-duration);
+}
+
+.mobile-nav ul li a:hover {
+    color: var(--secondary);
+}
+
+.menu-button {
+    display: none;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  
+    color: var(--light_green);
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1002;
+    transition: background-color var(--transition-duration);
+}
+
+.menu-button i {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .menu-button {
+        display: block;
+    }
+}

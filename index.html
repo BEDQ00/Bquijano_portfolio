@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My awesome portfolio</title>
+    <title>Quijano, Bien Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -14,24 +14,34 @@
 
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile_nav.css">
+    <script src="./js/mobile.js"></script>
+
 </head>
 
 <body>
     <div class="site-main-wrapper">
-        <button class="hamberger">
-            <img src="./images/hamberger.svg" alt="">
-        </button>
+        
+      <!-- Menu Button -->
+<div class="menu-button">
+    <i class="fa-regular fa-circle"></i>
+   
+</div>
 
-        <div class="mobile-nav">
-            <button class="times"><img src="./images/times.svg" alt=""></button>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </div>
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+</div>
+
+
+
+        
         <header>
             <div class="container">
                 <nav id="main-nav" class="flex items-center justify-between">
@@ -61,18 +71,206 @@
                         <p>I’m a student eager to learn and grow in the field of technology. <br>With a passion for coding and problem-solving, 
                             I strive to continually improve my skills and knowledge, embracing every opportunity to expand 
                             my understanding and contribute to meaningful projects.</p>
-                        <div>
-                            <button class="btn btn-secondary">DOWNLOAD CV</button>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
         </header>
 
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Skills</h1>
+                <p>I have <spam>2 years</spam> of experience<br>I completed <spam>6 Projects</spam></p>
+                
+                <div class="card-wrapper">
+                    <div class="card">
+                        <i class="fa-brands fa-php"></i>
+                        <h2>PHP</h2>
+                        <div class="skill_container">
+                            <div class="skill php">40%</div>
+                        </div>
+                        <p>I'm 40% through learning PHP, focusing on its use in web development.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h2>HTML</h2>
+                        <div class="skill_container">
+                            <div class="skill html">80%</div>
+                        </div>
+                        <p>I've reached 80% proficiency in HTML for creating structured web pages.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h2>CSS</h2>
+                        <div class="skill_container">
+                            <div class="skill css">80%</div>
+                        </div>
+                        <p>I'm 80% through learning CSS to style and design responsive web pages.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fa-brands fa-js"></i>
+                        <h2>JavaScript</h2>
+                        <div class="skill_container">
+                            <div class="skill js">50%</div>
+                        </div>
+                        <p>I've completed 50% of my JavaScript learning to add interactivity to websites.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fa-brands fa-java"></i>
+                        <h2>Java</h2>
+                        <div class="skill_container">
+                            <div class="skill java">50%</div>
+                        </div>
+                        <p>I'm halfway through learning Java, focusing on building applications.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python</h2>
+                        <div class="skill_container">
+                            <div class="skill python">45%</div>
+                        </div>
+                        <p>I'm 60% through learning Python, exploring its use in data analysis.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="freelancer">
+            <h1>I Am Available For Freelance Work.</h1>
+            <p>As a student passionate about <spam>Development</spam>, I offer freelancing services to help with your projects. <br>Balancing studies with work lets me provide fresh, high-quality solutions. <br>Contact <Spam>me</Spam> for your next project!</p>
+        </section>
+        
+        
+
+
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Client so far</h1>
+                <p>I provide some high quality system.</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/llourens.jpg" alt="">
+                        <p>"Im looking to some affordable Developer to my System for 3rd year of my collage,
+                            good thing i know <spam>Bien Quijano</spam> who know how to make the system reality and he 
+                            provide high quality, like what's on my mind."</p>
+                        <span>- Dionio, Llourenz</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/aileen.jpg" alt="">
+                        <p>"I just want to make my life easier, then I realise my brother is a <spam>Developer</spam>, 
+                            so is ask him to make something"</p>
+                        <span>- Quijano, Aileen</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/jam.jpg" alt="">
+                        <p>"I just want some company, <spam>+_=</spam></p>
+                        <span>- Selgas, Justene</span>
+                    </div>
+                    
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+        
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Projects</h1>
+            
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/pandaw.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>PanDaw Bakery</h1>
+                            </a>
+                      
+                            <p>This website is dedicated to selling a wide variety of freshly baked bread. Explore our selection of delicious loaves and place your order for delivery or pickup.</p>
+                          
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/rfid.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>RFID System </h1>
+                            </a>
+                      
+                            <p>An RFID (Radio Frequency Identification) system uses radio waves to track and identify objects via tags and readers. Tags have unique identifiers that readers can scan without direct contact. This technology is widely used in inventory tracking, supply chain management, and access control to improve efficiency and visibility.</p>
+                          
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/emp3.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>E.A.M</h1>
+                            </a>
+                      
+                            <p>E.A.M is focuses on recruiting, training, and evaluating staff, as well as handling performance, payroll, and benefits. It aims to create a positive work environment, align individual and company goals, and boost productivity, ultimately supporting overall business success..</p>
+                          
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/bangkobank.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Bangko Bank</h1>
+                            </a>
+                      
+                            <p>A banking system in Java uses object-oriented principles to efficiently manage accounts and transactions. With Java’s robust libraries and security features, it handles data integrity and real-time updates while supporting concurrent transactions and reliable performance.</p>
+                          
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/dashboard_bread.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Dashboard for Bakery</h1>
+                            </a>
+                      
+                            <p>This bakery dashboard provides real-time insights into daily sales, inventory levels, and customer orders. It helps track popular products and sales trends, streamlining operations and improving efficiency. The user-friendly interface makes it easy to monitor performance and manage stock, ensuring the bakery runs smoothly and meets customer demands.</p>
+                          
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/attendance.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>EAM "Employee Attendance Management</h1>
+                            </a>
+                      
+                            <p>An employee attendance management system tracks clock-in/out times, leave requests, and generates attendance reports. It provides real-time insights into employee punctuality and working hours, simplifying scheduling and payroll processing. The system improves efficiency by reducing manual record-keeping and helps ensure compliance with company policies.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
         <section id="about" class="about">
             <div class="container flex items-center about-inner-wrap">
                 <div class="flex-1">
-                    <img class="about-me-img" src="./images/man-2.png" alt="">
+                    <img class="about-me-img" src="./images/ako 2.png" alt="">
                 </div>
                 <div class="flex-1 right">
                     <h1>About <span>Me</span></h1>
@@ -84,12 +282,12 @@
                          education and looking forward to applying what I have learned in a real-world environment, contributing to exciting projects, 
                         and collaborating with talented teams.</p>
                     <div class="social">
-                        <a href="#"><i class="fa-brands fa-facebook" style="color: var(--primary);"></i></a>
-                        <a href="https://www.facebook.com/codersgyan">
+                        <a href="https://www.facebook.com/profile.php?id=100013991464148"><i class="fa-brands fa-facebook" style="color: var(--primary);"></i></a>
+                        <a href="https://t.me/quijanobien">
                             <i class="fa-brands fa-telegram" style="color: var(--primary);"></i>
                         </a>
                         
-                        <a href="https://twitter.com/CoderGyan">
+                        <a href="#contact">
                              <i class="fa-solid fa-envelope" style="color: var(--primary);"></i>
                         </a>
                        
@@ -97,268 +295,81 @@
                 </div>
             </div>
         </section>
-        <section id="services" class="services">
+
+        <section class="contact" id="contact">
             <div class="container">
-                <h1 class="section-heading"><span>My </span>Skills</h1>
-                <p>I have <spam>2 years</spam> of experience<br>I completed <spam>6 Projects</spam></p>
-                
+                <h1 class="section-heading">Contact <span>Me</span></h1>
+                <p>Feel free to reach out to me, if you need collaboration Im always welling.</p>
                 <div class="card-wrapper">
                     <div class="card">
-                        <i class="fa-brands fa-php"></i>
-                        <h2>Graphic Design</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h1>Mobile Number</h1>
+                        <h6>+63 9853217323</h6>
                     </div>
                     <div class="card">
-                        <i class="fa-brands fa-html5"></i>
-                        <h2>Graphic Design</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h1>Email</h1>
+                        <h6>quijanobien16@gmail.com</h6>
                     </div>
                     <div class="card">
-                        <img src="./images/bag.svg" alt="">
-                        <h2>Graphic Design</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h1>Location</h1>
+                        <h6>Purok 13, Ising Carmen Davao del Norte</h6>
                     </div>
                     <div class="card">
-                        <img src="./images/desktop.svg" alt="">
-                        <h2>Graphic Design</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <h1>languages</h1>
+                        <h6>Bisaya, Tagalog, English</h6>
                     </div>
                     <div class="card">
-                        <img src="./images/media.svg" alt="">
-                        <h2>Graphic Design</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
+                        <i class="fa-solid fa-school"></i>
+                        <h1>Education</h1>
+                        <h6>Davao del Norte State College</h6>
                     </div>
                     <div class="card">
-                        <img src="./images/phone.svg" alt="">
-                        <h2>Graphic Design</h2>
-                        <p>There are many variations of passages of but the majority have suffered alteration in some
-                            form.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="freelancer">
-            <h1>I Am Available For Freelancer.</h1>
-            <p>We provide high standar clean website for your business solutions</p>
-            <button class="btn btn-primary">Download CV</button>
-        </section>
-        <section class="reviews">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span> Client</h1>
-                <p>We provide high standar clean website for your business solutions</p>
-                <div class="slider">
-                    <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
-                    </div>
-                    <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
-                    </div>
-                    <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
-                    </div>
-                    <div class="slide">
-                        <img src="./images/lady.png" alt="">
-                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum"</p>
-                        <span>- John Doel, Company ABC</span>
-                    </div>
-                </div>
-                <div class="slider-dots"></div>
-            </div>
-        </section>
-
-        <section id="work" class="work">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span> Works</h1>
-                <p>We provide high standar clean website for your business solutions</p>
-
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web development</a>
-                        </div>
-                        <img src="./images/ph-1.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web development</a>
-                        </div>
-                        <img src="./images/ph-1.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web development</a>
-                        </div>
-                        <img src="./images/ph-1.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web development</a>
-                        </div>
-                        <img src="./images/ph-1.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web development</a>
-                        </div>
-                        <img src="./images/ph-1.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web development</a>
-                        </div>
-                        <img src="./images/ph-1.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="blog" class="blog">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span> Blog</h1>
-                <p>We provide high standar clean website for your business solutions</p>
-
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./images/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Occusamus et iusto odio</h1>
-                            </a>
-                            <span>May 12, 2017</span>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt
-                                mollit anim id est laborum.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./images/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Occusamus et iusto odio</h1>
-                            </a>
-                            <span>May 12, 2017</span>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt
-                                mollit anim id est laborum.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./images/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Occusamus et iusto odio</h1>
-                            </a>
-                            <span>May 12, 2017</span>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt
-                                mollit anim id est laborum.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact">
-            <div class="container">
-                <h1 class="section-heading">Contact <span>Us</span></h1>
-                <p>We provide high standar clean website for your business solutions</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <img src="./images/phone-2.svg" alt="">
-                        <h1>Call Us On</h1>
-                        <h6>+985 123 7856</h6>
-                    </div>
-                    <div class="card">
-                        <img src="./images/msg.svg" alt="">
-                        <h1>Email Us At</h1>
-                        <h6>support@companyname.com</h6>
-                    </div>
-                    <div class="card">
-                        <img src="./images/map.svg" alt="">
-                        <h1>Visit Office</h1>
-                        <h6>99 S.t Jomblo Park Pekanbaru 28292. Indonesia</h6>
+                        <i class="fa-solid fa-user-graduate"></i>
+                        <h1>Course</h1>
+                        <h6>Bachelor of Science in Information Technology</h6>
                     </div>
 
                 </div>
 
-                <form action="">
+                <form action="your-server-endpoint" method="post"><p style="font-size: 10px;">*not working!...</p>
                     <div class="input-wrap">
-                        <input type="text" placeholder="Your Name *">
-                        <input type="email" placeholder="Your Email *">
+                        
+                        <input type="text" name="name" placeholder="Your Name *" required>
+                        <input type="email" name="email" placeholder="Your Email *" required>
                     </div>
                     <div class="input-wrap-2">
-                        <input type="text" placeholder="Your Subject...">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                        <input type="text" name="subject" placeholder="Your Subject...">
+                        <textarea name="message" cols="30" rows="10" placeholder="Your Message..."></textarea>
                     </div>
                     <div class="btn-wrapper">
-                        <button class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary">Send Message...</button>
                     </div>
                 </form>
+                
             </div>
         </section>
         <footer>
-            <img class="footer-logo" src="./images/logo-2.svg" alt="">
+            
             <div class="footer-socials">
-                <a href="#"><img src="./images/website.svg" alt=""></a>
-                <a href="https://www.facebook.com/codersgyan"><i class="fa-brands fa-facebook"></i>
-                <a href="https://twitter.com/CoderGyan"> <img src="./images/twitter.svg" alt=""></a>
-                <a href="#"> <img src="./images/pintrest.svg" alt=""></a>
-                <a href="https://www.instagram.com/codersgyan/"> <img src="./images/instagram.svg" alt=""></a>
+                <a href="https://www.facebook.com/profile.php?id=100013991464148" aria-label="Facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/BQuijano74470" aria-label="Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://t.me/quijanobien" aria-label="Instagram" target="_blank"><i class="fa-brands fa-telegram"></i></a>
             </div>
             <div class="copyright">
-                Copyright 2020 © Coder's Gyan
+                &copy; 2024 Quijano, Bien. All rights reserved.
             </div>
         </footer>
+        
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/app.js"></script>
+    
 </body>
 
 </html>
